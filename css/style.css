@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu-links {
+    text-decoration: none;
+}
+
+.lessons {
+    display: flex;
+    border: 1px solid;
+    max-width: 400px;
+    height: 50px;
+   align-items: center;
+   margin-bottom: 20px;
+}
