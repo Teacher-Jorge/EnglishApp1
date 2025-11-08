@@ -6,4 +6,22 @@
 
 .menu-links {
     text-decoration: none;
+    margin-top: 10px;
+}
+
+.heading {
+    display: flex;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.back  {
+    text-decoration: none;
+    position: absolute;
+    left: 1700px;
+    top: 10px;
+}
+
+.lesson-title {
+    font-size: 30px;
 }
