@@ -12,16 +12,46 @@
 .heading {
     display: flex;
     max-width: 400px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .back  {
     text-decoration: none;
     position: absolute;
-    left: 1700px;
-    top: 10px;
+    top: 600px;
 }
 
 .lesson-title {
     font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.instructions {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgb(73, 0, 73);
+}
+
+.buttons {
+    width: 100px;
+    height: 40px;
+    background-color: aliceblue;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    margin-bottom: 20px;
+}
+
+.buttons:active {
+    box-shadow: none;
+}
+
+.conversation {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.names {
+    font-size: 25px;
+    color: brown;
 }
